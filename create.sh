@@ -34,7 +34,7 @@ mkdir -p /var/www/"$domain"/html
 
 ## grant privileges
 cd $sitesDir$domain
-chown -R $USER:$USER html/
+chown -R $user:$user html/
 chmod -R 755 /var/www/"$domain"/html
 
 echo "Domain created at : " $domain
