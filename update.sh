@@ -10,6 +10,7 @@ echo Welcome, $user
 sitesEnabled='/etc/nginx/sites-enabled/'
 sitesAvailable='/etc/nginx/sites-available/'
 sitesDir='/var/www/'
+uri='$uri'
 
 # Input
 oldDomain=$1
@@ -50,6 +51,8 @@ echo "Removing succeed. Then create..."
 mkdir -p /var/www/"$newDomain"/html
 
 ## grant privileges
+cd $sitesDir$newDomain
+chown -R $user:$user html/
 chmod -R 755 /var/www/"$newDomain"/html
 echo "Domain created at : " $newDomain
 
