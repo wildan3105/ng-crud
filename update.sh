@@ -31,11 +31,8 @@ do
 done
 
 # DELETE FIRST
-## remove old root directory
-rm -rf /var/www/"$oldDomain"/html
-
 ## remove entire directory
-rmdir /var/www/"$oldDomain"
+rm -rf /var/www/"$oldDomain"
 
 ## remove old config file
 rm $sitesAvailable$oldDomain
