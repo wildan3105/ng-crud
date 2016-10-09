@@ -23,7 +23,7 @@ fi
 # Check domain
 while [ "$domain" == "" ]
 do
-	echo -e $"Please provide domain. e.g.dev,staging"
+	echo -e $"Please provide domain to create. e.g.dev,staging"
 	read domain
 done
 
