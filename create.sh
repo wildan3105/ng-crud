@@ -50,10 +50,11 @@ server {
 	root $sitesDir$domain/html;
 	index index.html index.htm;
 
+	# Make site accessible from http://localhost/
 	server_name $domain www.$domain;
 
 	location / {
-			try_files $uri $uri/ =404;
+		try_files $uri $uri/ =404;
 	}
 }
 " >> /etc/nginx/sites-available/"$domain"
