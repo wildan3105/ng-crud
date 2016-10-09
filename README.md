@@ -30,21 +30,29 @@ Basic command line syntax :
   `$ sudo ./create.sh [argument]`
 
 ## Examples
-1. Create a new virtual host : `$ sudo ./create [domain]`
+1. Create a new virtual host : 
+   
+   *Syntax* : `$ sudo ./create [domain]`
 
-  `$ sudo ./create.sh blog.wildan.us`
+   **Example** : `$ sudo ./create.sh blog.wildan.us`
 
-2. List all active virtual host(s): `./read`
+2. List all active virtual host(s): 
+   
+   *Syntax* : `./read`
 
-  `$ ./read`
+   **Example** : `$ ./read`
 
-3. Delete certain virtual host : `$ sudo ./delete [domain]`
+3. Delete certain virtual host : 
+   
+   *Syntax* : `$ sudo ./delete [domain]`
 
-  `$ sudo ./delete blog.wildan.us`
+   **Example** : `$ sudo ./delete blog.wildan.us`
 
-4. Update virtual host address : `$ sudo ./update [old-domain] [new-domain]`
+4. Update virtual host address : 
+   
+   *Syntax* : `$ sudo ./update [old-domain] [new-domain]`
 
-  `$ sudo ./update blog.wildan.us notes.wildan.us`
+   **Example** : `$ sudo ./update blog.wildan.us notes.wildan.us`
 
 ## Further Development
 
