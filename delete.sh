@@ -31,8 +31,8 @@ done
 ## remove root directory
 rm -rf /var/www/"$domain"/html
 
-## remove index.html file
-rm /var/www/"$domain"/html/index.html
+## remove directory
+rmdir /var/www/"$domain"
 
 ## remove config file
 rm $sitesAvailable$domain
@@ -45,4 +45,3 @@ service nginx restart
 
 ## VOILA!
 echo 'Domain has been successfully demolished'
-
