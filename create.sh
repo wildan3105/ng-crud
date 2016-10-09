@@ -10,6 +10,7 @@ echo Welcome, $user
 sitesEnabled='/etc/nginx/sites-enabled/'
 sitesAvailable='/etc/nginx/sites-available/'
 sitesDir='/var/www/'
+uri='$uri'
 
 # Input
 domain=$1
