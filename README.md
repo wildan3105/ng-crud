@@ -32,27 +32,27 @@ Basic command line syntax :
 ## Examples
 1. Create a new virtual host : 
    
-   *Syntax* : `$ sudo ./create [domain]`
+   *Syntax* : `$ sudo ./create.sh [domain]`
 
    **Example** : `$ sudo ./create.sh blog.wildan.us`
 
 2. List all active virtual host(s): 
    
-   *Syntax* : `./read`
+   *Syntax* : `$ ./read.sh`
 
-   **Example** : `$ ./read`
+   **Example** : `$ ./read.sh`
 
 3. Delete certain virtual host : 
    
-   *Syntax* : `$ sudo ./delete [domain]`
+   *Syntax* : `$ sudo ./delete.sh [domain]`
 
-   **Example** : `$ sudo ./delete blog.wildan.us`
+   **Example** : `$ sudo ./delete.sh blog.wildan.us`
 
 4. Update virtual host address : 
    
-   *Syntax* : `$ sudo ./update [old-domain] [new-domain]`
+   *Syntax* : `$ sudo ./update.sh [old-domain] [new-domain]`
 
-   **Example** : `$ sudo ./update blog.wildan.us notes.wildan.us`
+   **Example** : `$ sudo ./update.sh blog.wildan.us notes.wildan.us`
 
 ## Further Development
 
