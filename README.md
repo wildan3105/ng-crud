@@ -22,6 +22,9 @@ Simple bash script to perform CRUD (Create, Read, Update, and Delete) virtual ho
   `$ chmod 755 *.sh`
   
 ## Usage
+
+![](http://im2.ezgif.com/tmp/ezgif-4003363826.gif)
+
 **Assumption(s)** : You have set your basic Nginx virtual host / server blocks. If you haven't set it yet, check to this link : 
 
 [How to set up nginx virtual host on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
