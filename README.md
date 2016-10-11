@@ -23,7 +23,7 @@ Simple bash script to perform CRUD (Create, Read, Update, and Delete) virtual ho
   
 ## Usage
 
-![](http://im2.ezgif.com/tmp/ezgif-4003363826.gif)
+![](http://imgur.com/L3w4ey9)
 
 **Assumption(s)** : You have set your basic Nginx virtual host / server blocks. If you haven't set it yet, check to this link : 
 
