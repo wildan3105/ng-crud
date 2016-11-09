@@ -1,5 +1,7 @@
 # Nginx Virtual Host CRUD Operation
 
+[![Build Status](https://img.shields.io/github/stars/https://github.com/wldn/Nginx-Vhost-CRUD-Operation.git.svg)](https://github.com/https://github.com/wldn/Nginx-Vhost-CRUD-Operation.git)
+
 Simple bash script to perform CRUD (Create, Read, Update, and Delete) virtual host using Nginx
 
 ## Installation
