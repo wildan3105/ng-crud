@@ -58,8 +58,9 @@ Basic command line syntax :
    **Example** : `$ sudo ./update.sh blog.wildan.us notes.wildan.us`
 
 ## Further Development
-
-Many things to do with this script. Like coloring the output text, check if domain already exist (coming soon), or other verification you need in order to perform the best scripting with Nginx. So, have fun ~
+:white_medium_square: Add usage.sh
+:white_medium_square: Check if domain already exist
+:white_medium_square: Colored output text
 
 ## License
 
