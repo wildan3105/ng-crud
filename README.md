@@ -27,7 +27,7 @@ Simple bash script to perform CRUD (Create, Read, Update, and Delete) virtual ho
 
 **Assumption(s)** : You have set your basic Nginx virtual host / server blocks. If you haven't set it yet, check to this link : 
 
-[How to set up nginx virtual host on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
+[How to set up nginx virtual host on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04)
 
 Basic command line syntax :
   `$ sudo ./create.sh [argument]`
