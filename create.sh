@@ -28,6 +28,14 @@ do
 	read domain
 done
 
+# Check domain availability
+nslookup $domain &> /dev/null
+status=$?
+if [ $status -eq 0 ]; then
+	echo $"Domain $domain already exists. Try something else."
+	exit 1;
+fi
+
 # CREATE
 ## make root directory
 mkdir -p /var/www/"$domain"/html
