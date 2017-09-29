@@ -5,7 +5,7 @@ Simple bash script to perform CRUD (Create, Read, Update, and Delete) virtual ho
 ## Installation
 1. Download the codes via terminal on your server
 
-  `$ wget https://github.com/wldn/Nginx-Vhost-CRUD-Operation/archive/master.zip`
+  `$ wget https://github.com/wildan3105/Nginx-Vhost-CRUD-Operation/archive/master.zip`
 
 2. Unzip the codes
 
