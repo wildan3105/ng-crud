@@ -58,9 +58,9 @@ Basic command line syntax :
    **Example** : `$ sudo ./update.sh blog.wildan.us notes.wildan.us`
 
 ## Further Development
-[ ] Add usage.sh
-[-] Check if domain already exist
-[ ] Colored output text
+- [ ] Add usage.sh
+- [x] Check if domain already exist
+- [ ] Colored output text
 
 ## License
 
