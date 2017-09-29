@@ -62,6 +62,10 @@ Basic command line syntax :
 - [x] Check if domain already exist
 - [ ] Colored output text
 
+## Contributor
+- [Wildan S. Nahar](http://github.com/wildan3105)
+- [Enrique Matías Sánchez](http://github.com/quique)
+
 ## License
 
 MIT

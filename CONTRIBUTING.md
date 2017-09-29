@@ -1,5 +1,7 @@
 # Contributing
 
-If you want to contribute, please see the to-do list I have made at readme.md and start help me out.
+## Contributions are welcome via pull requests and issues. But firstly take a look at todo list [here](https://github.com/wildan3105/Nginx-Vhost-CRUD-Operation/blob/master/README.md#further-development)
 
-Cheers :)
+#### I will first review the code you submit and if it works perfectly I will merge and **add your name as contributor**
+
+## Happy hacking!
