@@ -1,5 +1,7 @@
 # Nginx Virtual Host CRUD Operation
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/67f638d5088045589f5f60825c0e58cd)](https://www.codacy.com/app/wildan3105/ng-crud?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=wildan3105/ng-crud&amp;utm_campaign=Badge_Grade)
+
 Simple bash script to perform CRUD (Create, Read, Update, and Delete) virtual host using Nginx
 
 ## Installation
